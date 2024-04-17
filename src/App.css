@@ -1,0 +1,9 @@
+.slidie-mcslide-pants {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .slidie-mcslide-pants {
+    display: block;
+  }
+}

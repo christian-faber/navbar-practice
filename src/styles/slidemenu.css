@@ -1,0 +1,55 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.315);
+  position: absolute;
+  top: 60px;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.menu.open {
+  display: block;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  background-color: aliceblue;
+  top: 60px;
+  right: 0;
+  height: 100vh;
+  width: 55vw;
+  padding: 0;
+  padding-top: 50px;
+}
+
+.menu button {
+  font-size: 25px;
+  border-radius: 100%;
+  background-color: aliceblue;
+  border: 1px solid black;
+  color: black;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.menu ul {
+  list-style: none;
+  font: 400;
+  color: black;
+  font-size: 25px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+a {
+  font: 400;
+  color: black;
+  font-size: 25px;
+  font-style: normal;
+}
